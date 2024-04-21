@@ -5,7 +5,7 @@
   "description": "Highlights 2 for 1 Uber Eats deals ",
   "content_scripts": [
     {
-      "matches": ["https://www.ubereats.com/de/feed*"],
+      "matches": ["https://www.ubereats.com/*/feed*"],
       "js": ["content.js"]
     }
   ]
