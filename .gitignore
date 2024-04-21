@@ -1,5 +1,6 @@
 # For signing extension
 pub*
+.hidden/
 
 # Output
 out/
