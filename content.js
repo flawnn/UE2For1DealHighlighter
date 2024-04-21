@@ -21,12 +21,6 @@ function highlightDeals() {
 // Initial check
 highlightDeals();
 
-// Retry every 2 seconds for 10 seconds
-let attempts = 0;
 const intervalId = setInterval(() => {
   highlightDeals();
-  attempts++;
-  if (attempts >= 5) {
-    clearInterval(intervalId); // Stop retrying after 5 attempts (10 seconds)
-  }
 }, 2000);
